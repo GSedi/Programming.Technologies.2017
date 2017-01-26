@@ -8,7 +8,7 @@ namespace Lab1_Prime
 {
     class Program
     {
-        // создаём функцию Isprime в которой будем проверять на ши числа на простоту прогоняя через for и при это используя счётчик
+        // создаём функцию Isprime в которой будем проверять наши числа на простоту прогоняя через for и при это используя счётчик
         static int IsPrime(int x)
         {
             int a = x;
@@ -18,9 +18,10 @@ namespace Lab1_Prime
                 if (a % i == 0)
                     с++;
             }
-            
-            if (с == 2)
+
+            if (с == 2 || a == 1) 
                 return a;
+
             else
                 return 0;
         }
@@ -40,7 +41,7 @@ namespace Lab1_Prime
             int z;
             Console.WriteLine("Prime numbers are:");
 
-            for (int i = 0; i < s.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 y = int.Parse(arr[i]);
                 z = IsPrime(y); 
@@ -48,9 +49,10 @@ namespace Lab1_Prime
                 {
                     Console.Write(y + " ");
                 }
+            
             }
 
-            Console.WriteLine("Press any key to exit...");
+            Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
         }
     }
