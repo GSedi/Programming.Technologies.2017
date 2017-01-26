@@ -31,7 +31,7 @@ namespace Lab1_Student
             this.fname = fname;
         }
 
-       /* public Student(string lname)
+      /* public Student(string lname)
         {
             this.lname = lname;
         
@@ -49,7 +49,7 @@ namespace Lab1_Student
 
         public string getFname()
         {
-            this.fname = "Gamidov";
+            
             return fname;
         }
 

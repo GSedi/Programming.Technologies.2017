@@ -13,7 +13,7 @@ namespace Lab1_Student
             //создаём студента с данными характеристиками
             Student s = new Student("Gamidov", "Sedi", 18, 4);
 
-            //s.setFname("Gamidov");
+            s.setFname("Gamidov");
             s.getFname();
 
 
