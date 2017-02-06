@@ -18,7 +18,7 @@ namespace Lab2_minPrime
 
             string[] arr = s.Split();
 
-            long mini = 999999999999999;
+            int mini = int.Parse(arr[0]);
 
             for (int i = 0; i < arr.Length; i++)
             {
@@ -65,14 +65,14 @@ namespace Lab2_minPrime
                 return 0;
             }
         }
-        static void Write(long x)
+        static void Write(int x)
         {
             FileStream fs = new FileStream(@"C:\Users\Администратор\Desktop\РТ\test\folder\Write.txt", FileMode.Open, FileAccess.Write);
 
             StreamWriter sw = new StreamWriter(fs);
 
-            long a = x;
-            sw.WriteLine("The min prime number is: " + a);
+            
+            sw.WriteLine("The min prime number is: " + x);
             sw.Close();
             fs.Close();
         }

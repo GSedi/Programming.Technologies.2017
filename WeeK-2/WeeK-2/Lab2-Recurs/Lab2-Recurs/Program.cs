@@ -9,36 +9,8 @@ namespace Lab2_Recurs
 {
     class Program
     {
-        static void f1()
-        {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Администратор\Desktop\РТ\test");
-
-            FileInfo[] files = dir.GetFiles();
-
-            foreach (FileInfo f in files)
-            {
-                Console.WriteLine(f.Name);
-            }
-
-            Console.ReadKey();
-        }
-
-
-        static void f2()
-        {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Администратор\Desktop\РТ\test\");
-
-            DirectoryInfo[] dirs = dir.GetDirectories();
-
-            foreach (DirectoryInfo d in dirs)
-            {
-                Console.WriteLine(d.Name);
-            }
-
-            Console.ReadKey();
-        }
-
-        static void f3(string path, int depth)
+       
+        static void f1(string path, int depth)
         {
             DirectoryInfo dir = new DirectoryInfo(path);
             FileInfo[] files = dir.GetFiles();
@@ -54,34 +26,53 @@ namespace Lab2_Recurs
             {
                 for (int i = 0; i < depth; i++) Console.Write(" ");
                 Console.WriteLine(d.Name);
-                f3(d.FullName, depth + 5);
+                f1(d.FullName, depth + 5);
             }
 
         }
-        /*static void Stack()
+        static void Stack(string path) 
         {
-            DirectoryInfo dir = new DirectoryInfo(path);
-            //FileInfo[] files = dir.GetFiles();
-            //DirectoryInfo[] dirs = dir.GetDirectories();
-
-            Stack<FileInfo> files = new Stack<FileInfo>();
+            Stack<string> directory = new Stack<string>(); 
+            directory.Push(path);
             
-            for(int i=0; i< depth; i++)
+            while (directory.Count > 0) 
             {
+                DirectoryInfo dir = new DirectoryInfo(directory.Pop()); 
+                
+                DirectoryInfo[] dirs = dir.GetDirectories(); 
+                FileInfo[] files = dir.GetFiles(); 
 
+
+
+                Console.WriteLine(dir.Name); 
+               
+               foreach (FileInfo file in files) 
+                {
+                  
+                    Console.WriteLine("        " + file.Name);
+                   
+                }
+                
+                foreach (DirectoryInfo dar in dirs)
+                {
+                    Console.WriteLine("    " + dar);
+                    directory.Push(dar.FullName); 
+                }
+
+              
+                
             }
-
-
-            foreach(FileInfo fi in files)
-            //s.Pop();
-            Console.WriteLine("Stack size: {0}, last added element is: {1}", s.Count, s.Peek());
         }
-        */
-        static void Main(string[] args)
+
+            static void Main(string[] args)
         {
-            f3(@"D:\test", 0);
-            //Stack();
+            Stack(@"D:\test");
+            //f1(@"D:\test", 0);
+            
             Console.ReadKey();
         }
+
+        
     }
+
 }

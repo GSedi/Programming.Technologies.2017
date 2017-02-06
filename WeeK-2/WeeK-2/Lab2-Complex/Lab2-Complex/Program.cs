@@ -10,20 +10,22 @@ namespace Lab2_Complex
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Press first two numbers...");
+            Console.Write("Press first complex number: ");
             string s = Console.ReadLine();
-            string[] arr = s.Split();
-            Console.WriteLine("Press second two numbers...");
-            string s1 = Console.ReadLine();
-            string[] arr1 = s1.Split();
-            Console.WriteLine("Press any char...");
+            string[] arr = s.Split('/');
+
+            Console.Write("\nPress any operation: ");
             string s2 = Console.ReadLine();
 
-
+            Console.Write("\nPress second complex number: ");
+            string s1 = Console.ReadLine();
+            string[] arr1 = s1.Split('/');
+            
 
             Complex a = new Complex(int.Parse(arr[0]), int.Parse(arr[1]));
             Complex b = new Complex(int.Parse(arr1[0]), int.Parse(arr1[1]));
             Complex c;
+
             if (s2 == "+")
             {
                 c = a + b;
@@ -40,7 +42,7 @@ namespace Lab2_Complex
             }
                 
 
-            Console.WriteLine("The answer is: " + c + "\nPress any key to exit...");
+            Console.Write("\nThe answer is: " + c + "\nPress any key to exit...");
 
             Console.ReadKey();
 

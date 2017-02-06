@@ -41,15 +41,16 @@ namespace Lab2_Complex
         public static Complex operator +(Complex a, Complex b)
         {
             Complex c = new Complex();
-            c.X = a.X + b.X;
-            c.Y = a.Y + b.Y;
+            c.X = a.X*b.Y + b.X*a.Y;
+            c.Y = a.Y*b.Y;
             return c;
         }
         public static Complex operator -(Complex a, Complex b)
         {
             Complex c = new Complex();
-            c.X = a.X - b.X;
-            c.Y = a.Y - b.Y;
+            c.X = a.X * b.Y - b.X * a.Y;
+            c.Y = a.Y * b.Y;
+
             return c;
         }
         public static Complex operator *(Complex a, Complex b)
@@ -62,16 +63,41 @@ namespace Lab2_Complex
         public static Complex operator /(Complex a, Complex b)
         {
             Complex c = new Complex();
-            c.X = a.X / b.X;
-            c.Y = a.Y / b.Y;
+            c.X = a.X * b.Y;
+            c.Y = a.Y * b.X;
             return c;
         }
 
         public override string ToString()
         {
-            
-            return x + " + " + y + "i";
+            int q = gcd(x, y);
+            if (x / q == 0)
+            {
+                return "0";
+            }
+            else if (x / q == y / q)
+            {
+                return "1";
+            }
+            else if (y / q == 0)
+            {
+                return "ERROR";
+            }
+            else
+            {
+                return x / q + "/" + y / q;
+            }
             //return string.Format("Complex\nx: {0}\ny:", x, y);
+        }
+
+        static int gcd(int x, int y)
+        {
+            if (x == 0) {
+                return y;
+            }
+            
+                return gcd(y % x, x);
+            
         }
     }
 }
