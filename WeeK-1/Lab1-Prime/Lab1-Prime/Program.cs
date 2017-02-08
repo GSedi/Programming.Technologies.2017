@@ -44,7 +44,7 @@ namespace Lab1_Prime
             for (int i = 0; i < arr.Length; i++)
             {
                 y = int.Parse(arr[i]);
-                z = IsPrime(y); 
+                    z = IsPrime(y); 
                 if (z == y)
                 {
                     Console.Write(y + " ");
