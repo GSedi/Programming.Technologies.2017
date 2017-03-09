@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerComplex", "SerComplex.csproj", "{19AF0048-5E7E-4229-A074-9570A51B73CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMySnake", "..\..\..\WeeK-5\WeeK-5\NMySnake\NMySnake\NMySnake.csproj", "{79F64CA7-C813-4DB8-A6AB-095477527985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidTerm3", "..\..\..\Проекты\MidTerm3\MidTerm3.csproj", "{207C1A18-53C1-4A83-90A6-A773DD2A2420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19AF0048-5E7E-4229-A074-9570A51B73CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AF0048-5E7E-4229-A074-9570A51B73CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AF0048-5E7E-4229-A074-9570A51B73CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AF0048-5E7E-4229-A074-9570A51B73CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F64CA7-C813-4DB8-A6AB-095477527985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F64CA7-C813-4DB8-A6AB-095477527985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F64CA7-C813-4DB8-A6AB-095477527985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F64CA7-C813-4DB8-A6AB-095477527985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207C1A18-53C1-4A83-90A6-A773DD2A2420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207C1A18-53C1-4A83-90A6-A773DD2A2420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207C1A18-53C1-4A83-90A6-A773DD2A2420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207C1A18-53C1-4A83-90A6-A773DD2A2420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

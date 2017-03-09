@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\bin\Debug\SerComplex.exe.config
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\obj\Debug\SerComplex.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\bin\Debug\SerComplex.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\bin\Debug\SerComplex.pdb
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\obj\Debug\SerComplex.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-7\WeeK-7\SerComplex\obj\Debug\SerComplex.pdb
