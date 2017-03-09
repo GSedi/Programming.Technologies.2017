@@ -44,6 +44,8 @@ namespace MySnake.Model
         {
             Console.Clear();
             int i = 0;
+
+            
             foreach (Point p in body)
             {
                 Console.ForegroundColor = (i == 0) ? ConsoleColor.Red : color;

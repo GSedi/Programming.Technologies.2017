@@ -8,27 +8,32 @@ namespace MySnake.Model
 {
     class Food
     {
-        public char ss;
-        public List<Point> foo;
+
+
+
+
+        /*public char ss;
+        public List<Point> food;
 
         public Food()
         {
-            foo = new List<Point>();
+            food = new List<Point>();
             ss = '$';
-            foo.Add(new Point(20, 20));
+            food.Add(new Point(20, 20));
         }
 
         public void generate()
         {
             Console.Clear();
 
-            foreach(Point pp in foo)
+            foreach(Point pp in food)
             {
                 Console.SetCursorPosition(pp.x, pp.y);
                 Console.Write(ss);
+                
             }
         }
-
+        */
 
     }
 }
