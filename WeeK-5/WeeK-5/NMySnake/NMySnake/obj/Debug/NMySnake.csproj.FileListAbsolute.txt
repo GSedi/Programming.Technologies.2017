@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\bin\Debug\NMySnake.exe.config
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\obj\Debug\NMySnake.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\bin\Debug\NMySnake.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\bin\Debug\NMySnake.pdb
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\obj\Debug\NMySnake.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\NMySnake\NMySnake\obj\Debug\NMySnake.pdb

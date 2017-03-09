@@ -1,0 +1,6 @@
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\bin\Debug\MySnakeN.exe.config
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\bin\Debug\MySnakeN.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\bin\Debug\MySnakeN.pdb
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\obj\Debug\MySnakeN.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\obj\Debug\MySnakeN.exe
+C:\Users\Администратор\Desktop\РТ\WeeK-5\WeeK-5\MySnakeN\MySnakeN\obj\Debug\MySnakeN.pdb
